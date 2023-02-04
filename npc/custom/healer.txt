@@ -42,7 +42,7 @@
 	end;
 }
 
-
+//============================================================
 // Duplicates
 //============================================================
 alberta,25,240,6	duplicate(Healer)	Healer#alb	909
@@ -75,6 +75,7 @@ veins,217,121,4	duplicate(Healer)	Healer#ve	909
 xmas,143,136,4	duplicate(Healer)	Healer#xmas	909
 yuno,164,45,4	duplicate(Healer)	Healer#yuno	909
 
+//============================================================
 // Duplicates (Renewal)
 //============================================================
 brasilis,194,221,6	duplicate(Healer)	Healer#bra	909
@@ -84,3 +85,8 @@ ecl_in01,45,60,4	duplicate(Healer)	Healer#ecl	909
 malangdo,132,114,6	duplicate(Healer)	Healer#mal	909
 malaya,227,204,6	duplicate(Healer)	Healer#ma	909
 mora,55,152,4	duplicate(Healer)	Healer#mora	909
+
+//============================================================
+// Custom
+//============================================================
+moc_para01,26,20,4	duplicate(Healer)	Healer#eden	909

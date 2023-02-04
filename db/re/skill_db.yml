@@ -6974,13 +6974,11 @@ Body:
     DamageFlags:
       NoDamage: true
     SplashArea: 1
-    Duration1: 1800000
+    Duration1: 18000000
     Requires:
       SpCost: 10
       ItemCost:
         - Item: Germination_Breed
-          Amount: 1
-        - Item: Seed_Of_Life
           Amount: 1
   - Id: 244
     Name: AM_REST

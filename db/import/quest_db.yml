@@ -476,3 +476,12 @@ Body:
   - Id: 18025
     Title: Core collection - Waiting
     TimeLimit: 4h
+#########################################
+####        Custom Quest             ####
+#########################################
+  - Id: 1000001
+    Title: "Request : Hunt Poring - TEST"
+    Targets:
+      - Mob: PORING
+        Count: 1
+

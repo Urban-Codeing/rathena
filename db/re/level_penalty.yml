@@ -78,22 +78,22 @@ Body:
   - Type: Drop
     LevelDifferences:
       - Difference: 16
-        Rate: 50
+        Rate: 75 #50
       - Difference: 13
-        Rate: 60
+        Rate: 75 #60
       - Difference: 10
-        Rate: 70
+        Rate: 75 #70
       - Difference: 7
-        Rate: 80
+        Rate: 80 #80
       - Difference: 4
-        Rate: 90
+        Rate: 90 #90
       - Difference: -4
-        Rate: 90
+        Rate: 90 #90
       - Difference: -7
-        Rate: 80
+        Rate: 80 #80
       - Difference: -10
-        Rate: 70
+        Rate: 75 #70
       - Difference: -13
-        Rate: 60
+        Rate: 75 #60
       - Difference: -16
-        Rate: 50
+        Rate: 75 #50

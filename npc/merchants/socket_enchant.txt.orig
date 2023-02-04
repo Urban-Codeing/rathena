@@ -249,7 +249,6 @@
 function	script	Func_Socket	{
 	.@item_id = getarg(0);
 	.@zeny_req = getarg(4);
-	.@zeny_req = .@zeny_req/2;
 	setarray .@item_req[0], getarg(5), getarg(7,0);
 	setarray .@req_amount[0], getarg(6), getarg(8,0);
 
@@ -289,8 +288,7 @@ function	script	Func_Socket	{
 				mes "You'd better pray for a successful result.";
 				next;
 				set .@a, rand(1,100);
-				//if ((.@a > getarg(2)) && (.@a < getarg(3)))
-				if(true)
+				if ((.@a > getarg(2)) && (.@a < getarg(3)))
 				{
 					specialeffect getarg(3) == 51 ? EF_LORD : EF_SANCTUARY; // only S Class items have Lord of Vermillion effect
 					mes "[Seiyablem]";

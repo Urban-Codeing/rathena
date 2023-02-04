@@ -38,5 +38,5 @@ Footer:
   - Path: db/pre-re/mob_summon.yml
     Mode: Prerenewal
   - Path: db/re/mob_summon.yml
-    Mode: Renewal
-  - Path: db/import/mob_summon.yml
+#    Mode: Renewal
+# - Path: db/import/mob_summon.yml

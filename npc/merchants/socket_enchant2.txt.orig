@@ -281,8 +281,7 @@
 						mes "Pray to your gods for good luck.";
 						next;
 						set .@a, rand(1,100);
-						//if ((.@a > 4) && (.@a < 95))
-						if(true)
+						if ((.@a > 4) && (.@a < 95))
 						{
 							specialeffect EF_LORD;
 							mes "[Leablem]";
@@ -388,7 +387,6 @@ prt_in,22,60,6	duplicate(SocketEnchant2)	Leablem#prt	86
 function	script	Func_Socket2	{
 	.@item_id = getarg(0);
 	.@zeny_req = getarg(4);
-	.@zeny_req = .@zeny_req/2;
 	setarray .@item_req[0], getarg(5), getarg(7,0);
 	setarray .@req_amount[0], getarg(6), getarg(8,0);
 
@@ -426,8 +424,7 @@ function	script	Func_Socket2	{
 				mes "You'd better pray for a successful result.";
 				next;
 				set .@a, rand(1,100);
-				//if ((.@a > getarg(2)) && (.@a < getarg(3)))
-				if(true)
+				if ((.@a > getarg(2)) && (.@a < getarg(3)))
 				{
 					specialeffect EF_LORD;
 					mes "[Leablem]";

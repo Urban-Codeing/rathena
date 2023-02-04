@@ -687,3 +687,19 @@ alb2trea,59,69,5	script	Kafra Employee::kaf_alb2trea	117,{
 	savepoint "alb2trea",92,64,1,1;
 	callfunc "F_KafEnd",0,1,"at Sunken Ship";
 }
+
+// - Eden Guild
+moc_para01,35,20,3	script	Kafra Employee::kaf_prontera	112,{
+	cutin "kafra_06",2;
+	callfunc "F_KafSet";
+	mes "[Kafra Employee]";
+	mes "Welcome to the";
+	mes "Kafra Corporation~";
+	mes "The Kafra Services are";
+	mes "always here to support";
+	mes "you. So how can I be";
+	mes "of service today?";
+	callfunc "F_Kafra",5,0,0,40,800;
+	savepoint "moc_para01", 31,21,1,1;
+	callfunc "F_KafEnd",0,1,"in the Eden Guild";
+}

@@ -1,0 +1,38 @@
+moc_para01,45,24,3	script	Custom Missions#Tuto	4_BOARD3,{
+
+
+	mes " - Line 1 -";
+	mes " - Line 2 -";
+	mes " ";
+	mes " - Line 4 -";
+	next;
+	switch(select("Take:Finish")){
+		case 1:
+			switch(select("Mission A:Cancel")) {
+				case 1: setquest 1000001;
+				case 2:
+					mes " - Stop reading the bulletin board. - ";
+					close;
+			}
+		case 2:
+			for( .@i = 1000001; .@i < 1000002; .@i++ ) {
+				.@j = checkquest(.@i,HUNTING);
+				if (.@j == 2) {
+					switch(.@i) {
+						case 1000001: callsub L_Quest,.@i,"Custom Killing",1,1;
+					}
+				}
+				else if (.@j >= 0) {
+					mes "";
+					mes "";
+					mes "OK!";
+					close;
+				}
+			}
+	}
+	close;
+	
+	
+	
+	
+}
